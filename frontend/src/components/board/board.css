@@ -37,3 +37,7 @@
 .space-header.green {
   background-color: #00ff00;
 }
+
+.space-footer {
+  margin-top: 65px;
+}
