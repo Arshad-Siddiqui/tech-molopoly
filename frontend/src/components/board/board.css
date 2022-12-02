@@ -2,10 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
+}
+
+.inner, .outer {
+  border: 1px solid #000;
+}
+
+.outer {
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner {
-  border: 1px solid #000;
   height: 800px;
   width: 800px;
 }
