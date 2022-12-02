@@ -5,7 +5,6 @@ class Card {
     public price: number,
   ) {}
 
-
 }
 
 export default Card;

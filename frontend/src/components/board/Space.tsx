@@ -1,4 +1,6 @@
-const Space = (card: Card) => {
+import Card from '../../types/card'
+
+const Space = ({ card }: {card: Card}) => {
   return (
     <div className='space'>
       <div className={'space-header' + ` ${card.color}`} />
@@ -11,9 +13,3 @@ const Space = (card: Card) => {
 }
 
 export default Space;
-
-interface Card {
-  name: string;
-  color: string;
-  price: number;
-}
