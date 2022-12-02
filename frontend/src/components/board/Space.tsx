@@ -14,6 +14,6 @@ export default Space;
 
 interface Card {
   name: string;
-  color: string | null;
+  color: string;
   price: number;
 }
