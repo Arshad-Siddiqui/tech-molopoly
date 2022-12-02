@@ -1,3 +1,5 @@
+import './NavBar.css'
+
 const NavBar = ({ title }: { title: string }) => {
   return (
     <nav>
