@@ -4,7 +4,7 @@ import Home from './pages/Home/Home'
 import Space from './components/Board/Space';
 import Card from './types/card';
 
-const testCard = new Card('test', 'green', 100)
+const testCard = new Card('St. Charles Place', 'green', 100)
 
 const App = () => {
   return (

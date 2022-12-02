@@ -21,3 +21,19 @@
   height: 1000px;
   width: 1000px;
 }
+
+.space {
+  height: 200px;
+  width: 120px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+}
+
+.space-header {
+  height: 40px;
+  border-bottom: 1px black solid;
+}
+
+.space-header.green {
+  background-color: #00ff00;
+}
