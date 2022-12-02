@@ -1,6 +1,10 @@
+import Board from "../../components/board/board"
+
 const Home = () => {
   return (
-    <h1>This is the Home page!</h1>
+    <div className='home-page'>
+      <Board />
+    </div>
   )
 }
 
