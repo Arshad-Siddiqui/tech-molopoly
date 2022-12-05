@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Old Kent Road",
+    "price": 50,
+    "rent": 2,
+    "rentWithSet": 4,
+    "group": "brown",
+    "house1": 10,
+    "house2": 30,
+    "house3": 90,
+    "house4": 160,
+    "hotel": 250,
+    "houseCost": 50,
+    "hotelCost": 50
+  }
+]
