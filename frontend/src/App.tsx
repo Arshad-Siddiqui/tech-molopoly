@@ -2,9 +2,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Space from './components/Board/Space';
-import Card from './types/card';
-
-const testCard = new Card('St. Charles Place', 'green', 100)
+import cardData from './components/Cards/properties.json';
+const testCard = cardData[0];
 
 const App = () => {
   return (
