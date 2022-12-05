@@ -3,7 +3,7 @@ import Card from "../../types/card";
 const Space = ({ card }: { card: Card }) => {
   return (
     <div className="space">
-      <div className={"space-header" + ` ${card.color}`} />
+      <div className={"space-header" + ` ${card.group}`} />
       <div className="space-body">
         <p className="space-name">{card.name}</p>
       </div>
