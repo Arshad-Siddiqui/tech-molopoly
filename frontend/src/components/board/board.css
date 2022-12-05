@@ -20,6 +20,20 @@
 .inner {
   height: 800px;
   width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.diagonal {
+  transform: rotate(-45deg);
 }
 
 .space {
