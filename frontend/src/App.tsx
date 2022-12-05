@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Space from './components/Board/Space';
 import cardData from './components/Cards/properties.json';
-const testCard = cardData[0];
+import Card from './types/card';
+const testCard: Card = cardData[0];
 
 const App = () => {
   return (
