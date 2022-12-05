@@ -48,8 +48,36 @@
   border-bottom: 1px black solid;
 }
 
+.space-header.brown {
+  background-color: #a52a2a;
+}
+
+.space-header.light-blue {
+  background-color: #add8e6;
+}
+
+.space-header.pink {
+  background-color: #ffc0cb;
+}
+
+.space-header.orange {
+  background-color: #ffa500;
+}
+
+.space-header.red {
+  background-color: #ff0000;
+}
+
+.space-header.yellow {
+  background-color: #ffff00;
+}
+
 .space-header.green {
   background-color: #00ff00;
+}
+
+.space-header.blue {
+  background-color: #0000ff;
 }
 
 .space-footer {
