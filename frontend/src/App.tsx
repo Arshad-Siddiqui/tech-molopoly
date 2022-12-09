@@ -1,7 +1,7 @@
 // import NavBar from "./components/NavBar/NavBar"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import AllCards from './pages/AllCards/AllCards';
+import AllSpaces from './pages/AllSpaces/AllSpaces';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/allCards' element ={<AllCards />} />
+          <Route path='/allSpaces' element ={<AllSpaces />} />
         </Routes>
       </BrowserRouter>
     </div>

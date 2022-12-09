@@ -1,7 +1,7 @@
 import CardData from "../../data/properties.json";
 import Space from "../../components/Board/Space";
 
-const AllCards = () => {
+const AllSpaces = () => {
   return (
     <div>
       {CardData.map((card) => {
@@ -11,4 +11,4 @@ const AllCards = () => {
   );
 };
 
-export default AllCards;
+export default AllSpaces;
