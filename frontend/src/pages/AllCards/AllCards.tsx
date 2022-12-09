@@ -5,11 +5,10 @@ const AllCards = () => {
   return (
     <div>
       {CardData.map((card) => {
-        return <Space card={card} key={card.name} />
-      })
-      }
+        return <Space card={card} key={card.name} />;
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default AllCards
+export default AllCards;
