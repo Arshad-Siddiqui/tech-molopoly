@@ -1,4 +1,4 @@
-import CardData from "../../components/Cards/properties.json";
+import CardData from "../../data/properties.json";
 import Space from "../../components/Board/Space";
 
 const AllCards = () => {
