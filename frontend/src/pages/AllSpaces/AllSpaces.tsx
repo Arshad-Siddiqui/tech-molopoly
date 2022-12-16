@@ -1,10 +1,10 @@
-import CardData from "../../data/properties.json";
 import Space from "../../components/Board/Space";
+import Card from "../../types/card";
 
-const AllSpaces = () => {
+const AllSpaces = ({ cardData }: { cardData: Card[]}) => {
   return (
     <div>
-      {CardData.map((card) => {
+      {cardData.map((card) => {
         return <Space card={card} key={card.name} />;
       })}
     </div>
