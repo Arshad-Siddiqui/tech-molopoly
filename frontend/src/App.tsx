@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import AllSpaces from './pages/AllSpaces/AllSpaces';
+import AllProperties from './pages/allProperties/allProperties';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/allSpaces' element ={<AllSpaces />} />
-          <Route path='/allProperties' element={<h1>All Properties</h1>} />
+          <Route path='/allProperties' element={<AllProperties />} />
         </Routes>
       </BrowserRouter>
     </div>
