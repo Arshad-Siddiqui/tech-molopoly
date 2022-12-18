@@ -68,5 +68,47 @@
     "hotel": 750,
     "houseCost": 100,
     "hotelCost": 100
+  },
+  {
+    "name": "Pall Mall",
+    "price": 160,
+    "rent": 12,
+    "rentWithSet": 24,
+    "group": "light-blue",
+    "house1": 60,
+    "house2": 180,
+    "house3": 500,
+    "house4": 700,
+    "hotel": 900,
+    "houseCost": 100,
+    "hotelCost": 100
+  },
+  {
+    "name": "Whitehall",
+    "price": 180,
+    "rent": 14,
+    "rentWithSet": 28,
+    "group": "pink",
+    "house1": 70,
+    "house2": 200,
+    "house3": 550,
+    "house4": 750,
+    "hotel": 950,
+    "houseCost": 100,
+    "hotelCost": 100
+  },
+  {
+    "name": "Northumrl'd Avenue",
+    "price": 200,
+    "rent": 16,
+    "rentWithSet": 32,
+    "group": "pink",
+    "house1": 80,
+    "house2": 220,
+    "house3": 600,
+    "house4": 800,
+    "hotel": 1000,
+    "houseCost": 100,
+    "hotelCost": 100
   }
 ]
