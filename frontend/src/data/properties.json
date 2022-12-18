@@ -42,7 +42,7 @@
     "hotelCost": 50
   },
   {
-    "name": "Leister Square",
+    "name": "Euston Road",
     "price": 120,
     "rent": 8,
     "rentWithSet": 16,
@@ -56,21 +56,7 @@
     "hotelCost": 50
   },
   {
-    "name": "Bow Street",
-    "price": 140,
-    "rent": 10,
-    "rentWithSet": 20,
-    "group": "light-blue",
-    "house1": 50,
-    "house2": 150,
-    "house3": 450,
-    "house4": 625,
-    "hotel": 750,
-    "houseCost": 100,
-    "hotelCost": 100
-  },
-  {
-    "name": "Pall Mall",
+    "name": "Pentonville Road",
     "price": 160,
     "rent": 12,
     "rentWithSet": 24,
@@ -80,6 +66,20 @@
     "house3": 500,
     "house4": 700,
     "hotel": 900,
+    "houseCost": 100,
+    "hotelCost": 100
+  },
+  {
+    "name": "Pall Mall",
+    "price": 180,
+    "rent": 14,
+    "rentWithSet": 28,
+    "group": "pink",
+    "house1": 70,
+    "house2": 200,
+    "house3": 550,
+    "house4": 750,
+    "hotel": 950,
     "houseCost": 100,
     "hotelCost": 100
   },
@@ -110,5 +110,19 @@
     "hotel": 1000,
     "houseCost": 100,
     "hotelCost": 100
+  },
+  {
+    "name": "Bow Street",
+    "price": 220,
+    "rent": 18,
+    "rentWithSet": 36,
+    "group": "orange",
+    "house1": 90,
+    "house2": 250,
+    "house3": 700,
+    "house4": 875,
+    "hotel": 1050,
+    "houseCost": 150,
+    "hotelCost": 150
   }
 ]
