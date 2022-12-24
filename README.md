@@ -1,10 +1,10 @@
-# tech-molopoly
+# Tech Monopoly
 
 ## Goals
 
-The goal of this project is to increase familiarity with useGesture as well as web sockets in order to develop an online game of monopoly. The difference in approach between how this game will play as opposed to the current official online monopoly game is how strict the ruling is. For this game there will be no strict ruling and you can play as you see fit by essentially dragging cards around.
-
-Another goal is to increase familiarity with frontend testing using vitest and the react testing library as well as cypress in order to write cleaner code through test driven development.
+- Increase comfort with useGesture, web sockets and frontend component testing.
+- Create a monopoly game that is more flexible than the current official online monopoly game.
+- Dockerize the backend application.
 
 ## Stretch goals
 
@@ -12,3 +12,20 @@ Another goal is to increase familiarity with frontend testing using vitest and t
 - For instance being able to shuffle card positions.
 - Modify existing properties.
 - Creating new properties etc.
+- The user will be able to create their own custom monopoly game.
+- The board will be themed around tech.
+- Dockerize the frontend application.
+
+## Tech
+
+- React (TypeScript, Vite, Vitest)
+- useGesture
+- WebSockets (socket.io)
+- Docker
+
+## How to initialize
+
+- Clone this Repo
+- Start backend by running `docker-compose up`
+- CD into the frontend and run `npm install`
+- Run `npm run dev` in the frontend
