@@ -4,7 +4,6 @@ import Home from './pages/Home/Home'
 import cardData from "./data/properties.json";
 import AllSpaces from './pages/AllSpaces/AllSpaces';
 import AllProperties from './pages/allProperties/AllProperties';
-import { useState } from 'react';
 
 const App = () => {
   return (
