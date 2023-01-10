@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import cardData from "./data/properties.json";
 import AllSpaces from './pages/AllSpaces/AllSpaces';
-import AllProperties from './pages/allProperties/AllProperties';
+import AllProperties from './pages/AllProperties/AllProperties';
 
 const App = () => {
   return (
