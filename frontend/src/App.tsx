@@ -1,14 +1,12 @@
 // import NavBar from "./components/NavBar/NavBar"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import CardData from "./data/properties.json";
+import cardData from "./data/properties.json";
 import AllSpaces from './pages/AllSpaces/AllSpaces';
-import AllProperties from './pages/allProperties/allProperties';
+import AllProperties from './pages/allProperties/AllProperties';
 import { useState } from 'react';
 
 const App = () => {
-  const [cardData, setCardData] = useState(CardData);
-  
   return (
     <div className="App">
       {/* <NavBar title='Tech Monopoly!' /> */}
