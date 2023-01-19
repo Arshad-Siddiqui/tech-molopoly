@@ -26,6 +26,4 @@
 ## How to initialize
 
 - Clone this Repo
-- Start backend by running `docker-compose up`
-- CD into the frontend and run `npm install`
-- Run `npm run dev` in the frontend
+- Start back and front end by running `docker-compose up`
