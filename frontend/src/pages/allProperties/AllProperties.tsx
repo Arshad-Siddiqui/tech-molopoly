@@ -1,13 +1,15 @@
 import Card from "../../types/card";
+import Property from "../../components/Cards/Property";
 
-const AllProperties = ({ cardData }: { cardData: Card[]}) => {
-
-  console.log(cardData)
+const AllProperties = ({ cardData }: { cardData: Card[] }) => {
+  console.log(cardData);
   return (
     <div>
-      <h1>All Properties</h1>
+      {cardData.map((property: Card) => {
+        return <Property property={property} />;
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default AllProperties
+export default AllProperties;
