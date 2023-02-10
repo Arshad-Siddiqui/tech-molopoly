@@ -1,10 +1,12 @@
 import Space from "../../components/Board/Space";
 import Card from "../../types/card";
+import "./allSpaces.css";
 
 const AllSpaces = ({ cardData }: { cardData: Card[]}) => {
   return (
     <>
-    <div>
+    <h1>All Spaces</h1>
+    <div className="all-spaces">
       {cardData.map((card) => {
         return <Space card={card} key={card.name} />;
       })}

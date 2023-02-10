@@ -12,3 +12,20 @@
   padding: 5px;
   margin: 5px;
 }
+
+.property-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.property-name {
+  margin: 0;
+  padding: 0;
+}
+
+.title-deed {
+  font-size: 0.5rem
+}

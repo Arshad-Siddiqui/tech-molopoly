@@ -6,11 +6,11 @@ export default function Property({ property }: { property: Card }) {
   return (
     <div className="property card">
       <div className={`property-header ${property.group}`}>
-        <p>Title Deed</p>
-        <div className="property__name">{property.name}</div>
+        <p className="title-deed">Title Deed</p>
+        <p className="property-name">{property.name}</p>
       </div>
       <div className="property-rent">rent {property.price}</div>
-      <div className="property__rent">rent with colour set {property.rent}</div>
+      <div className="property-rent-ws">rent with colour set {property.rent}</div>
     </div>
   );
 }
