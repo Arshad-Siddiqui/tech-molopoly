@@ -4,11 +4,18 @@ import Property from "../../components/Cards/Property";
 const AllProperties = ({ cardData }: { cardData: Card[] }) => {
   console.log(cardData);
   return (
-    <div>
-      {cardData.map((property: Card) => {
-        return <Property property={property} />;
-      })}
-    </div>
+    <>
+      <h1>All Properties</h1>
+      <div className="all-properties">
+        {cardData.map((property: Card) => {
+          return <Property property={property} />;
+        })}
+      </div>
+      <footer>
+        <a href="/">Home</a>
+        <a href="/allSpaces">All Spaces</a>
+      </footer>
+    </>
   );
 };
 
