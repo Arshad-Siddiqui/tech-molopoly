@@ -9,7 +9,7 @@ const AllSpaces = ({ cardData }: { cardData: Card[]}) => {
         return <Space card={card} key={card.name} />;
       })}
     </div>
-    <footer>
+    <footer className="navigation-footer">
       <a href="/">Home</a>
       <a href="/allProperties">All Properties</a>
     </footer>

@@ -11,7 +11,7 @@ const AllProperties = ({ cardData }: { cardData: Card[] }) => {
           return <Property property={property} />;
         })}
       </div>
-      <footer>
+      <footer className="navigation-footer">
         <a href="/">Home</a>
         <a href="/allSpaces">All Spaces</a>
       </footer>
