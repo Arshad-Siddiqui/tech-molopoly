@@ -27,3 +27,5 @@
 
 - Clone this Repo
 - Start back and front end by running `docker-compose up`
+> Note: docker-compose up doesn't rebuild your containers.
+> If you want to rebuild your containers, run `docker-compose up --build`
