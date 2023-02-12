@@ -264,5 +264,47 @@
     "hotel": 2000,
     "houseCost": 200,
     "hotelCost": 200
+  },
+  {
+    "name": "Bond Street",
+    "price": 450,
+    "rent": 60,
+    "rentWithSet": 120,
+    "group": "green",
+    "house1": 250,
+    "house2": 700,
+    "house3": 1500,
+    "house4": 1800,
+    "hotel": 2100,
+    "houseCost": 200,
+    "hotelCost": 200
+  },
+  {
+    "name": "Park Lane",
+    "price": 350,
+    "rent": 35,
+    "rentWithSet": 70,
+    "group": "blue",
+    "house1": 175,
+    "house2": 500,
+    "house3": 1100,
+    "house4": 1300,
+    "hotel": 1500,
+    "houseCost": 200,
+    "hotelCost": 200
+  },
+  {
+    "name": "Mayfair",
+    "price": 400,
+    "rent": 50,
+    "rentWithSet": 100,
+    "group": "blue",
+    "house1": 200,
+    "house2": 600,
+    "house3": 1400,
+    "house4": 1700,
+    "hotel": 2000,
+    "houseCost": 200,
+    "hotelCost": 200
   }
 ]
