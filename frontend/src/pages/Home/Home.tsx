@@ -7,6 +7,7 @@ const Home = () => {
       <Board />
       <Link to='/allSpaces'>All Spaces</Link>
       <Link to='/allProperties'>All Properties</Link>
+      <Link to='/allCorners'>All Corners</Link>
     </div>
   )
 }
