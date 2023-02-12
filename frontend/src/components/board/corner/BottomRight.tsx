@@ -1,6 +1,6 @@
 const BottomRight = () => {
   return (
-    <div>
+    <div className="corner bottom-right">
       Go!
     </div>
   )

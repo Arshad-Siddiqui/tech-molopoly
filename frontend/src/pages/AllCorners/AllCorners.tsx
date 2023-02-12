@@ -1,5 +1,6 @@
 import TopLeft from "../../components/Board/corner/TopLeft";
 import BottomRight from "../../components/Board/corner/BottomRight";
+import "./corners.css"
 
 export default function AllCorners() {
   return (
