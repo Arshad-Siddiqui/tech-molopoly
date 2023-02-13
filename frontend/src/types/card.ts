@@ -4,10 +4,7 @@ interface Card {
   rent: number;
   rentWithSet: number;
   group: string; // color
-  house1: number;
-  house2: number;
-  house3: number;
-  house4: number;
+  house: number[];
   hotel: number;
   hotelCost: number;
   houseCost: number;
