@@ -5,9 +5,11 @@ export default function House({
   houseNumber: number;
   houseAmount: number;
 }) {
+
   return (
-    <div className={"house" + houseNumber}>
-      With {houseNumber} house {houseAmount}M
+    <div className="house">
+      <div className="house-number">With {houseNumber} house</div>
+      <div className="house-amount">M{houseAmount}</div>
     </div>
   );
 }
