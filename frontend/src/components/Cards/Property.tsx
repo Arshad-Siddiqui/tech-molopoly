@@ -1,4 +1,5 @@
 import Card from "../../types/card";
+import House from "./House";
 import "./card.css"
 
 export default function Property({ property }: { property: Card }) {
@@ -11,10 +12,10 @@ export default function Property({ property }: { property: Card }) {
       </div>
       <div className="property-rent">rent {property.price}M</div>
       <div className="property-wh">
-        <div className="property-rent-wh house1">rent with house {property.house1}</div>
-        <div className="property-rent-wh house2">rent with house {property.house2}</div>
-        <div className="property-rent-wh house3">rent with house {property.house3}</div>
-        <div className="property-rent-wh house4">rent with house {property.house4}</div>
+        <House houseNumber={1} houseAmount={property.house1}/>
+        <House houseNumber={2} houseAmount={property.house2}/>
+        <House houseNumber={3} houseAmount={property.house3}/>
+        <House houseNumber={4} houseAmount={property.house4}/>
       </div>
       <div className="property-rent-ws">rent with colour set {property.rent}</div>
     </div>
