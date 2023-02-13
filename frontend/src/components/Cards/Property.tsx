@@ -12,10 +12,11 @@ export default function Property({ property }: { property: Card }) {
       </div>
       <div className="property-rent">rent {property.price}M</div>
       <div className="property-wh">
-        <House houseNumber={1} houseAmount={property.house[0]}/>
-        <House houseNumber={2} houseAmount={property.house[1]}/>
-        <House houseNumber={3} houseAmount={property.house[2]}/>
-        <House houseNumber={4} houseAmount={property.house[3]}/>
+        {
+          property.house.map((house, index) => {
+            return <House houseNumber={index + 1} houseAmount={house}/>
+          })
+        }
       </div>
       <div className="property-rent-ws">rent with colour set {property.rent}</div>
     </div>
