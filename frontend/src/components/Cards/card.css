@@ -5,10 +5,7 @@
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   padding: 5px;
   margin: 5px;
 }
@@ -19,30 +16,40 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  border: 1px solid black;
 }
 
 .property-name {
   margin: 0;
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .title-deed {
-  font-size: 0.5rem
+  font-size: 0.6rem
 }
 
 .property-rent {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0.5rem;
 }
 
 .property-wh {
   width: 100%;
 }
 
-.house {
+.house, .hotel {
   display: flex;
   flex-direction: horizontal;
   justify-content: space-between;
   margin: 0 10px;
+}
+
+.property-footer {
+  font-size: 0.5rem;
+  color: grey;
 }
