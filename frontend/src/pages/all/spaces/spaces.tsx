@@ -1,14 +1,14 @@
 import Space from "../../../components/board/space/space";
-import Card from "../../../types/property";
+import Property from "../../../types/property";
 import "./spaces.css";
 
-const AllSpaces = ({ cardData }: { cardData: Card[]}) => {
+const AllSpaces = ({ properties }: { properties: Property[]}) => {
   return (
     <>
     <h1>All Spaces</h1>
     <div className="all-spaces">
-      {cardData.map((card) => {
-        return <Space card={card} key={card.name} />;
+      {properties.map((property, i: number) => {
+        return <Space property={property} key={i} />;
       })}
     </div>
     <footer className="navigation-footer">

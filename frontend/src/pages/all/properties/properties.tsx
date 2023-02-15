@@ -1,14 +1,14 @@
-import Card from "../../../types/property";
+import PropertyType from "../../../types/property";
 import Property from "../../../components/cards/property";
 import "./properties.css";
 
-const AllProperties = ({ cardData }: { cardData: Card[] }) => {
-  console.log(cardData);
+const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
+  console.log(properties);
   return (
     <>
       <h1>All Properties</h1>
       <div className="all-properties">
-        {cardData.map((property: Card, index: number) => {
+        {properties.map((property: PropertyType, index: number) => {
           return <Property property={property} key={index} />;
         })}
       </div>
