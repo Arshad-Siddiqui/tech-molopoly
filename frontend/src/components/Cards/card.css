@@ -47,9 +47,25 @@
   flex-direction: horizontal;
   justify-content: space-between;
   margin: 0 10px;
+  font-size: 0.8rem;
 }
+
+/* TODO: Make rest of the text 0.8rem*/
 
 .property-footer {
   font-size: 0.5rem;
   color: grey;
+}
+
+.mortgage-value, .houses-cost, .hotel-cost {
+  font-size: 0.8rem;
+}
+
+.mortgage-value {
+  margin: 0.3rem;
+  font-weight: bold;
+}
+
+.house-hotel-cost {
+  margin: 0.3rem;
 }

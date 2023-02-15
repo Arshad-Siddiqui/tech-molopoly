@@ -20,10 +20,12 @@ export default function Property({ property }: { property: Card }) {
         })}
         <Hotel amount={property.hotel} />
       </div>
-      <div className="mortgage-value">Mortgage Value Mph</div>
-      <div className="houses-cost">Houses cost Mph</div>
-      <div className="hotel-cost">Hotel cost Mph</div>
-      <div className="property-footer">{footerText}</div>
+      <div className="mortgage-value">Mortgage Value Mph each</div>
+      <div className="house-hotel-cost">
+        <div className="houses-cost">Houses cost M{property.houseCost} each</div>
+        <div className="hotel-cost">Hotel cost M{property.hotelCost} each</div>
+      </div>
+      <div className="property-footer">{footerText} each</div>
     </div>
   );
 }
