@@ -3,6 +3,7 @@
 ## Goals
 
 - Increase comfort with useGesture, web sockets, frontend component testing and Docker.
+- CSS grid.
 - Create a monopoly game that is more flexible than the current official online monopoly game.
 
 ## Stretch goals
