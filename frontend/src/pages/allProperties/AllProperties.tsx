@@ -8,8 +8,8 @@ const AllProperties = ({ cardData }: { cardData: Card[] }) => {
     <>
       <h1>All Properties</h1>
       <div className="all-properties">
-        {cardData.map((property: Card) => {
-          return <Property property={property} />;
+        {cardData.map((property: Card, index: number) => {
+          return <Property property={property} key={index} />;
         })}
       </div>
       <footer className="navigation-footer">

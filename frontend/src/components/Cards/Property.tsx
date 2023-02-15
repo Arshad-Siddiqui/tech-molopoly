@@ -16,7 +16,7 @@ export default function Property({ property }: { property: Card }) {
       <div className="property-rent">rent {property.price}M</div>
       <div className="property-wh">
         {property.house.map((house, index) => {
-          return <House houseNumber={index + 1} houseAmount={house} />;
+          return <House houseNumber={index + 1} key={index} houseAmount={house} />;
         })}
         <Hotel amount={property.hotel} />
       </div>
