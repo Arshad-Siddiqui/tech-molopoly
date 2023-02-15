@@ -2,9 +2,8 @@
 
 ## Goals
 
-- Increase comfort with useGesture, web sockets and frontend component testing.
+- Increase comfort with useGesture, web sockets, frontend component testing and Docker.
 - Create a monopoly game that is more flexible than the current official online monopoly game.
-- Dockerize the backend application.
 
 ## Stretch goals
 
@@ -14,11 +13,12 @@
 - Creating new properties etc.
 - The user will be able to create their own custom monopoly game.
 - The board will be themed around tech.
-- Dockerize the frontend application.
+- Learn how to use Docker effectively.
 
 ## Tech
 
 - React (TypeScript, Vite, Vitest)
+- React Router
 - useGesture
 - WebSockets (socket.io)
 - Docker
