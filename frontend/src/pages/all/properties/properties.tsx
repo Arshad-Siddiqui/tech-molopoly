@@ -1,6 +1,6 @@
-import Card from "../../types/card";
-import Property from "../../components/Cards/Property";
-import "./allProperties.css";
+import Card from "../../../types/card";
+import Property from "../../../components/cards/property";
+import "./properties.css";
 
 const AllProperties = ({ cardData }: { cardData: Card[] }) => {
   console.log(cardData);

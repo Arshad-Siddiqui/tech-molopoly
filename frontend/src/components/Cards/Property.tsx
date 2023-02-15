@@ -1,7 +1,7 @@
 import Card from "../../types/card";
-import House from "./House";
+import House from "./house";
 import "./card.css";
-import Hotel from "./Hotel";
+import Hotel from "./hotel";
 
 export default function Property({ property }: { property: Card }) {
   const footerText =

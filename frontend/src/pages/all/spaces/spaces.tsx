@@ -1,6 +1,6 @@
-import Space from "../../components/Board/Space";
-import Card from "../../types/card";
-import "./allSpaces.css";
+import Space from "../../../components/board/space";
+import Card from "../../../types/card";
+import "./spaces.css";
 
 const AllSpaces = ({ cardData }: { cardData: Card[]}) => {
   return (

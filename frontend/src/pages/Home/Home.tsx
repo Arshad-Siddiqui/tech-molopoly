@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Board from '../../components/Board/Board'
+import Board from '../../components/board/board'
 
 const Home = () => {
   return (

@@ -1,15 +1,14 @@
 // import NavBar from "./components/NavBar/NavBar"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home/Home'
+import Home from './pages/home/home'
 import cardData from "./data/properties.json";
-import AllSpaces from './pages/AllSpaces/AllSpaces';
-import AllProperties from './pages/AllProperties/AllProperties';
-import AllCorners from './pages/AllCorners/AllCorners';
+import AllSpaces from './pages/all/spaces/spaces';
+import AllProperties from './pages/all/properties/properties';
+import AllCorners from './pages/all/corners/corners';
 
 const App = () => {
   return (
     <div className="App">
-      {/* <NavBar title='Tech Monopoly!' /> */}
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
