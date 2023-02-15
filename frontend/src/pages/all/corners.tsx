@@ -3,6 +3,7 @@ import BottomRight from "../../components/board/corner/bottom-right";
 import TopRight from "../../components/board/corner/top-right";
 import "./corners.css"
 import { Link } from "react-router-dom";
+import BottomLeft from "../../components/board/corner/bottom-left";
 
 export default function AllCorners() {
   return (
@@ -10,6 +11,7 @@ export default function AllCorners() {
     <TopLeft />
     <BottomRight />
     <TopRight />
+    <BottomLeft />
     <Link to="/">Home</Link>
   </div>
   )
