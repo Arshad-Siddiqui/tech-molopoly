@@ -1,5 +1,5 @@
-import Space from "../../../components/board/space";
-import Card from "../../../types/card";
+import Space from "../../../components/board/space/space";
+import Card from "../../../types/property";
 import "./spaces.css";
 
 const AllSpaces = ({ cardData }: { cardData: Card[]}) => {

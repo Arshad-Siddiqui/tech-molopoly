@@ -1,4 +1,4 @@
-interface Card {
+interface Property {
   name: string;
   price: number;
   rent: number;
@@ -10,4 +10,4 @@ interface Card {
   houseCost: number;
 }
 
-export default Card;
+export default Property;

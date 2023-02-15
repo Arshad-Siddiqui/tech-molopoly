@@ -1,4 +1,5 @@
 import "./board.css";
+import "./color/color.css";
 
 const Board = () => {
   return (

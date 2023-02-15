@@ -1,4 +1,4 @@
-import Card from "../../../types/card";
+import Card from "../../../types/property";
 import Property from "../../../components/cards/property";
 import "./properties.css";
 

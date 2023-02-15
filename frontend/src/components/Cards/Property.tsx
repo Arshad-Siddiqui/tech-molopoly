@@ -1,9 +1,9 @@
-import Card from "../../types/card";
+import PropertyType from "../../types/property";
 import House from "./house";
 import "./card.css";
 import Hotel from "./hotel";
 
-export default function Property({ property }: { property: Card }) {
+export default function Property({ property }: { property: PropertyType }) {
   const footerText =
     "If a player owns all the sites of any colour group, the rent is doubled on unimproved sites in that group.";
 
