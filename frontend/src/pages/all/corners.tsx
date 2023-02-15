@@ -1,6 +1,6 @@
-import TopLeft from "../../../components/board/corner/top-left";
-import BottomRight from "../../../components/board/corner/bottom-right";
-import TopRight from "../../../components/board/corner/top-right";
+import TopLeft from "../../components/board/corner/top-left";
+import BottomRight from "../../components/board/corner/bottom-right";
+import TopRight from "../../components/board/corner/top-right";
 import "./corners.css"
 import { Link } from "react-router-dom";
 

@@ -1,5 +1,5 @@
-import PropertyType from "../../../types/property";
-import Property from "../../../components/cards/property";
+import PropertyType from "../../types/property";
+import Property from "../../components/cards/Property";
 import "./properties.css";
 
 const AllProperties = ({ properties }: { properties: PropertyType[] }) => {

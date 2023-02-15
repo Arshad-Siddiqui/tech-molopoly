@@ -1,5 +1,5 @@
-import Space from "../../../components/board/space/space";
-import Property from "../../../types/property";
+import Space from "../../components/board/space/space";
+import Property from "../../types/property";
 import "./spaces.css";
 
 const AllSpaces = ({ properties }: { properties: Property[]}) => {

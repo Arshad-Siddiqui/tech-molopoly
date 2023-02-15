@@ -2,9 +2,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/home'
 import properties from "./data/properties.json";
-import AllSpaces from './pages/all/spaces/spaces';
-import AllProperties from './pages/all/properties/properties';
-import AllCorners from './pages/all/corners/corners';
+import AllSpaces from './pages/all/spaces';
+import AllProperties from './pages/all/properties';
+import AllCorners from './pages/all/corners';
 
 const App = () => {
   return (
