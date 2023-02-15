@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div className='home-page'>
       <Board />
-      <Link to='/allSpaces'>All Spaces</Link>
-      <Link to='/allProperties'>All Properties</Link>
-      <Link to='/allCorners'>All Corners</Link>
+      <Link to='/all/spaces'>All Spaces</Link>
+      <Link to='/all/properties'>All Properties</Link>
+      <Link to='/all/corners'>All Corners</Link>
     </div>
   )
 }

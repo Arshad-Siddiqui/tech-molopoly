@@ -14,7 +14,8 @@ const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
       </div>
       <footer className="navigation-footer">
         <a href="/">Home</a>
-        <a href="/allSpaces">All Spaces</a>
+        <a href="/all/spaces">Spaces</a>
+        <a href="/all/corners">Corners</a>
       </footer>
     </>
   );

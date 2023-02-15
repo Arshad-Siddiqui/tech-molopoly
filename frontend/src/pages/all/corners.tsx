@@ -13,6 +13,8 @@ export default function AllCorners() {
     <TopRight />
     <BottomLeft />
     <Link to="/">Home</Link>
+    <Link to="/all/properties">Properties</Link>
+    <Link to='/all/spaces'>Spaces</Link> 
   </div>
   )
 }

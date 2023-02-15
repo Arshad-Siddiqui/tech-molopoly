@@ -13,7 +13,8 @@ const AllSpaces = ({ properties }: { properties: Property[]}) => {
     </div>
     <footer className="navigation-footer">
       <a href="/">Home</a>
-      <a href="/allProperties">All Properties</a>
+      <a href="/all/properties">Properties</a>
+      <a href="/all/corners">Corners</a>
     </footer>
     </>
   );
