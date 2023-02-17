@@ -6,17 +6,18 @@
   background-color: #fff;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding: 5px;
+  padding: 3px;
   margin: 5px;
 }
 
 .property-header {
-  width: 100%;
+  width: 99%;
   height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   border: 1px solid black;
+  margin: 0 auto;
 }
 
 .property-name {
