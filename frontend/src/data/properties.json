@@ -242,6 +242,28 @@
     "hotelCost": 200
   },
   {
+    "name": "Electric Company",
+    "price": 150,
+    "rent": 4,
+    "rentWithSet": 10,
+    "group": "utility",
+    "house": [0, 0, 0, 0],
+    "hotel": 0,
+    "houseCost": 0,
+    "hotelCost": 0
+  },
+  {
+    "name": "Water Works",
+    "price": 150,
+    "rent": 4,
+    "rentWithSet": 10,
+    "group": "utility",
+    "house": [0, 0, 0, 0],
+    "hotel": 0,
+    "houseCost": 0,
+    "hotelCost": 0
+  },
+  {
     "name": "placeholder",
     "price": 0,
     "rent": 0,
