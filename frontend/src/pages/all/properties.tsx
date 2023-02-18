@@ -1,6 +1,7 @@
 import PropertyType from "../../types/property";
 import Property from "../../components/cards/property";
 import "./properties.css";
+import { Link } from "react-router-dom";
 
 const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
   console.log(properties);
@@ -13,9 +14,9 @@ const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
         })}
       </div>
       <footer className="navigation-footer">
-        <a href="/">Home</a>
-        <a href="/all/spaces">Spaces</a>
-        <a href="/all/corners">Corners</a>
+        <Link to="/">Home</Link>
+        <Link to="/all/spaces">Spaces</Link>
+        <Link to="/all/corners">Corners</Link>
       </footer>
     </>
   );
