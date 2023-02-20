@@ -16,13 +16,17 @@ export default function Property({ property }: { property: PropertyType }) {
       <div className="property-rent">rent {property.price}M</div>
       <div className="property-wh">
         {property.house.map((house, index) => {
-          return <House houseNumber={index + 1} key={index} houseAmount={house} />;
+          return (
+            <House houseNumber={index + 1} key={index} houseAmount={house} />
+          );
         })}
         <Hotel amount={property.hotel} />
       </div>
       <div className="mortgage-value">Mortgage Value Mph each</div>
       <div className="house-hotel-cost">
-        <div className="houses-cost">Houses cost M{property.houseCost} each</div>
+        <div className="houses-cost">
+          Houses cost M{property.houseCost} each
+        </div>
         <div className="hotel-cost">Hotel cost M{property.hotelCost} each</div>
       </div>
       <div className="property-footer">{footerText} each</div>

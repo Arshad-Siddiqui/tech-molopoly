@@ -29,7 +29,7 @@
 }
 
 .title-deed {
-  font-size: 0.6rem
+  font-size: 0.6rem;
 }
 
 .property-rent {
@@ -43,7 +43,8 @@
   width: 100%;
 }
 
-.house, .hotel {
+.house,
+.hotel {
   display: flex;
   flex-direction: horizontal;
   justify-content: space-between;
@@ -58,7 +59,9 @@
   color: grey;
 }
 
-.mortgage-value, .houses-cost, .hotel-cost {
+.mortgage-value,
+.houses-cost,
+.hotel-cost {
   font-size: 0.8rem;
 }
 
@@ -69,4 +72,15 @@
 
 .house-hotel-cost {
   margin: 0.3rem;
+}
+
+.icon-property-name {
+  margin: 1rem;
+}
+
+.icon-property-image {
+  width: auto;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 5px;
 }
