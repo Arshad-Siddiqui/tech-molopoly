@@ -2,6 +2,7 @@ import PropertyType from "../../types/property";
 import Property from "../../components/cards/property";
 import "./properties.css";
 import { Link } from "react-router-dom";
+import IconProperty from "../../components/cards/icon-property";
 
 const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
   console.log(properties);
@@ -10,6 +11,10 @@ const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
       <h1>All Properties</h1>
       <div className="all-properties">
         {properties.map((property: PropertyType, index: number) => {
+          if (property.group === "utility") {
+            return <IconProperty property={property} key={index} />;
+          }
+
           return <Property property={property} key={index} />;
         })}
       </div>
