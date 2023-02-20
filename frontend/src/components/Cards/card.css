@@ -80,7 +80,9 @@
 
 .icon-property-image {
   width: auto;
-  height: 40%;
+  height: 60%;
   object-fit: cover;
   border-radius: 5px;
+  border: 1px solid black;
+  margin: 1rem;
 }
