@@ -78,11 +78,12 @@
   margin: 1rem;
 }
 
-.icon-property-image {
-  width: auto;
-  height: 60%;
-  object-fit: cover;
-  border-radius: 5px;
+.icon-property-header {
+  height: 50px;
+}
+
+.icon-property-image-container {
+  height: 180px;
   border: 1px solid black;
-  margin: 1rem;
+  margin-bottom: 30px;
 }
