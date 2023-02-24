@@ -1,6 +1,6 @@
 // import NavBar from "./components/NavBar/NavBar"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home/home";
+import Play from "./pages/play/play";
 import properties from "./data/properties.json";
 import AllSpaces from "./pages/all/spaces";
 import AllProperties from "./pages/all/properties";
@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/play" element={<Play />} />
           <Route path="/all">
             <Route
               path="spaces"
