@@ -4,9 +4,10 @@ import "./play.css";
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="play-page">
       <Board />
       <div className="nav-footer">
+        <Link to="/">Home</Link>
         <Link to="/all/spaces">All Spaces</Link>
         <Link to="/all/properties">All Properties</Link>
         <Link to="/all/corners">All Corners</Link>
