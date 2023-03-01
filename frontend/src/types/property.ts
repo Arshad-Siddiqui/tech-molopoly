@@ -1,5 +1,6 @@
 interface Property {
   name: string;
+  shortName: string | null;
   price: number;
   rent: number;
   rentWithSet: number;

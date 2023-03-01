@@ -78,6 +78,7 @@
   },
   {
     "name": "Northumberland Avenue",
+    "shortName": "Northumbl'd Avenue",
     "price": 200,
     "rent": 16,
     "rentWithSet": 32,
@@ -100,6 +101,7 @@
   },
   {
     "name": "Marlborough Street",
+    "shortName": "Marlbor'gh Street",
     "price": 220,
     "rent": 18,
     "rentWithSet": 36,
