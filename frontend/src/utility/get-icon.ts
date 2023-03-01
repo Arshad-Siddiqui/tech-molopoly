@@ -5,7 +5,7 @@ import {
   IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
 
-export const getIcon = (utilityName: string): IconDefinition => {
+export function getIcon(utilityName: string): IconDefinition {
   if (utilityName === "Water Works") {
     return faDroplet;
   }
@@ -14,6 +14,16 @@ export const getIcon = (utilityName: string): IconDefinition => {
   }
 
   return faTrash;
-};
+}
 
-export default getIcon;
+export function getIconColor(utilityName: string) {
+  if (utilityName === "Water Works") {
+    return "blue-icon";
+  }
+
+  if (utilityName === "Electric Company") {
+    return "yellow-icon";
+  }
+
+  return "black-icon";
+}

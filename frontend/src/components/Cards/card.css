@@ -84,6 +84,25 @@
 
 .icon-property-image-container {
   height: 180px;
-  border: 1px solid black;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-property-image {
+  font-size: 8rem;
+}
+
+.black-icon {
+  color: black;
+}
+
+.blue-icon {
+  color: blue;
+}
+
+.yellow-icon {
+  color: yellow;
 }
