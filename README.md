@@ -18,15 +18,15 @@
 
 ## Tech
 
-- React (TypeScript, Vite, Vitest)
-- React Router
-- useGesture
-- WebSockets (socket.io)
-- Docker
+- [x] React (TypeScript, Vite, Vitest)
+- [x] React Router
+- [x] useGesture
+- [ ] WebSockets (socket.io)
+- [x] Docker
 
 ## How to initialize
 
 - Clone this Repo
-- Start back and front end by running `docker-compose up`
-> Note: docker-compose up doesn't rebuild your containers.
-> If you want to rebuild your containers, run `docker-compose up --build`
+- Run `npm install` to install dependencies.
+- Run in dev mode with command `npm run dev`. This will run it in dev mode with vite.
+  > Note: Will need npm installed.
