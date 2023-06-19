@@ -1,0 +1,4 @@
+.bottom-side {
+  display: flex;
+  flex-direction: row;
+}

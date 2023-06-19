@@ -6,6 +6,7 @@ import AllSpaces from "./pages/all/spaces";
 import AllProperties from "./pages/all/properties";
 import AllCorners from "./pages/all/corners";
 import Home from "./pages/home/home";
+import AllSides from "./pages/all/sides";
 
 const App = () => {
   return (
@@ -24,6 +25,10 @@ const App = () => {
               element={<AllProperties properties={properties} />}
             />
             <Route path="corners" element={<AllCorners />} />
+            <Route
+              path="sides"
+              element={<AllSides properties={properties} />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>

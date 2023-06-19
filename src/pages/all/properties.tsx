@@ -22,6 +22,7 @@ const AllProperties = ({ properties }: { properties: PropertyType[] }) => {
         <Link to="/">Home</Link>
         <Link to="/all/spaces">Spaces</Link>
         <Link to="/all/corners">Corners</Link>
+        <Link to="/all/sides">Sides</Link>
       </footer>
     </>
   );
