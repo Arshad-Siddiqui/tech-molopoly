@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/play" element={<Play />} />
+          <Route path="/play" element={<Play properties={properties} />} />
           <Route path="/all">
             <Route
               path="spaces"

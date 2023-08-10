@@ -2,8 +2,6 @@ import Side from "../../components/board/side/side";
 import Properties from "../../types/property";
 
 export default function AllSides({ properties }: { properties: Properties[] }) {
-  // Starting with one side
-
   const bottomProperties = properties.slice(0, 5);
   const leftProperties = properties.slice(5, 10);
   const topProperties = properties.slice(10, 15);
