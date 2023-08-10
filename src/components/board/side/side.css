@@ -1,4 +1,16 @@
-.bottom-side {
+.bottom-side,
+.top-side,
+.left-side,
+.right-side {
   display: flex;
+}
+
+.bottom-side,
+.top-side {
   flex-direction: row;
+}
+
+.left-side,
+.right-side {
+  flex-direction: column-reverse;
 }
